@@ -1,0 +1,18 @@
+/* Scss Document */
+
+$prim_col: #FF8946;
+$sec_col: #011B44;
+
+@mixin soft_up {
+	border-radius: 50px;
+  	background: #F2F2F2;
+  	box-shadow: 20px 20px 60px #cecece, -20px -20px 60px #ffffff;
+  	padding: 2rem;
+}
+
+@mixin soft_down {
+	border-radius: 50px;
+	background: #F2F2F2;
+	box-shadow: inset 20px 20px 60px #cecece, inset -20px -20px 60px #ffffff;
+	padding: 2rem;
+}

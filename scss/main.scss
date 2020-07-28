@@ -1,0 +1,62 @@
+/* Scss Document */
+@import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+	background-color: #f2f2f2;
+	overflow-x: hidden;
+}
+
+.home {
+	margin-top: 5rem;
+}
+
+.sbaglio{
+	margin-top: 5rem;
+}
+
+h1, h2, h3{
+	font-family: 'Oswald', sans-serif;
+	color: $sec_col;
+	font-weight: bold;
+	text-align: center;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	color: $sec_col;
+	text-align: justify;
+}
+
+em{
+	font-weight: bold;
+	color: $prim_col;
+}
+
+strong{
+	color: $prim_col;
+}
+
+.soft_card{
+	@include soft_up;
+}
+
+
+
+.nav-item{
+	@include soft_up;
+	padding-top: 0rem;
+	padding-bottom: 0rem;
+	margin: 1rem;
+
+		&:hover{
+		@include soft_down;
+		padding-top: 0rem;
+		padding-bottom: 0rem;
+		color: $prim_col;
+		}
+}
+
+.nav-link:hover{
+	color: $prim_col;
+}
