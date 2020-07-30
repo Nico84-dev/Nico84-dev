@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        width: 60vw;
+        max-height: 150px;
+    
+        img{
+            max-width: 100%;
+            max-height: 150px;
+        }
+    }
+
+    .burger{
+        display: flex;
+        justify-content: flex-end;
+        img{
+            width: 87px;
+        }
+    }
+
+
+    .nav_link{
+        display: none;
+    }
+}

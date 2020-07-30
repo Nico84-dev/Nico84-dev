@@ -1,0 +1,19 @@
+@import 'var';
+
+.footer{
+    margin: 2rem 1rem 0rem 1rem;
+
+    .last_claim{
+        @include soft-up;
+
+        h1{
+            text-align: center;
+        }
+    }
+
+    .onda{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+@import 'var';
+
+.home{
+
+    .claim{
+        @include soft-up;
+        text-align: center;
+        margin: 2rem 1rem 0rem 1rem;
+    }
+
+    .folla{
+        display: flex;
+        justify-content: center;
+        img{
+            max-width: 100%;
+        }
+    }
+
+    p{
+        @include soft-up;
+        margin: 0rem 1rem;
+    }
+}

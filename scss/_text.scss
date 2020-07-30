@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    strong{
+        color: $prim-col;
+    }
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    line-height: 1.25rem;
+    strong{
+        font-weight: bold;
+        color: $prim-col;
+    }
+    em{
+        font-weight: bold;
+        color: $prim-col;
+    }
+}

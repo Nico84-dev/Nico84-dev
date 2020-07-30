@@ -1,0 +1,40 @@
+@import 'var';
+
+.servizi{
+    height: 250px;
+    
+    .servizi{
+        display: flex;
+        justify-content: center;
+        margin: 2rem 1rem 0rem 1rem;
+        position: relative;
+
+        img{
+            width: 100%;
+        }
+
+        h1{
+            position: absolute;
+            left: 40px;
+            width: 180px;
+            text-align: center;
+        }
+
+        a{
+            @include soft-up;
+            position: absolute;
+            left: 90px;
+            bottom: 30px;
+            padding: 0;
+            height: 90px;
+            width: 90px;
+            
+            &:active{
+                @include soft-down;
+            }
+        }
+        
+    }
+
+}
+

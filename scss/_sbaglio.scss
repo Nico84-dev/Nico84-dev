@@ -1,0 +1,25 @@
+@import 'var';
+
+.sbaglio{
+    
+    .muro{
+        display: flex;
+        justify-content: center;
+        margin: 2rem 1rem 0rem 1rem;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .testo{
+        @include soft-up;
+        margin: 2rem 1rem 0rem 1rem;
+
+        h1{
+            text-align: center;
+        }
+    }
+ 
+}
+

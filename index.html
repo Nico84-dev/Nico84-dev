@@ -1,82 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Sales & Promotions Srls</title>
+</head>
+<body>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
-	  
-  </head>
-  <body style="padding-top: 70px">
-  <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #f2f2f2">
-	  <a class="navbar-brand" href="#"><img src="./assets/img/Logo_blu.svg" alt="" style="max-width: 260px"></a>
-	  <a class="navbar-brand justify-self-end d-lg-none" href="#"><img src="./assets/img/burger_menu.svg" alt="" style="width: 84px"></a>
-      <div class="container justify-content-center">
-		<ul class="navbar-nav d-none d-xl-flex">
-			<li class="nav-item"> <a class="nav-link" href="#"><h3 class="nav-link">HOME</h3></a> </li>
-			<li class="nav-item"> <a class="nav-link" href="#"><h3 class="nav-link">SERVIZI</h3></a> </li>
-			<li class="nav-item"> <a class="nav-link" href="#"><h3 class="nav-link">TEAM</h3></a> </li>
-			<li class="nav-item"> <a class="nav-link" href="#"><h3 class="nav-link">CONTATTI</h3></a> </li>
-		</ul>
-		</div>
-  </nav>
-	  
-	  <div class="container justify-content-center home">
-		  <div class="row">
-	  <div class="col-lg soft_card">
-		  <h1>Vuoi <strong>DAVVERO</strong> farti notare e aumentare le tue vendite promuovendo il tuo <strong>BRAND</strong>?
-			  Smetti di sognare e agisci ora!</h1>
-		  <p class="d-none d-lg-block">Scopri il metodo vincente che renderà tutto questo non solo possibile ma anche estremamente accessibile!
-			Fatti guidare da chi, da ben 20 anni ha deciso di fare della promozione il proprio core business e affronta un nuovo viaggio che ti farà scoprire come l’innovazione e la tecnologia faranno crescere il tuo business.</p>
-	  </div>
-		<div class="col-lg d-flex justify-content-center">
-			<figure><img class="img-fluid" style="" src="./assets/img/folla.png" alt=""></figure>
-		</div>
-	</div>
-	  </div>
-  
-	  <div class="container d-lg-none soft_card">
-    	<p>Scopri il metodo vincente che renderà tutto questo non solo possibile ma anche estremamente accessibile!
-			Fatti guidare da chi, da ben 20 anni ha deciso di fare della promozione il proprio core business e affronta un nuovo viaggio che ti farà scoprire come l’innovazione e la tecnologia faranno crescere il tuo business.</p>
-	  </div>
-		  
-	  
-	   
-	  <div class="container sbaglio">
-		  <div class="row">
-		  	<div class="col-lg d-flex justify-content-center">
-			<figure><img class="img-fluid" style="" src="assets/img/omino sbaglio.png" alt=""></figure>
-		</div>
-		  <div class="col-lg soft_card">
-			  <h1>MA DOVE SBAGLIO?</h1>
-			  <p>Nella realtà odierna il vero problema per le attività, sia nel mondo “reale” che in quello digital è farsi notare in mezza a tutta la concorrenza. L’80% delle volte il problema non è la qualità del servizio o del prodotto che offri e neanche l’efficacia dei tuoi messaggi pubblicitari.	Il più delle volte il problema è far si che il pubblico ti veda, che capisca che <em>TU sei la scelta giusta per loro</em>, che risolverai tutti i loro problemi e migliorerai la loro vita attraverso i tuoi prodotti o servizi.</p>
-		  </div>
-		</div>
-	 </div>
-	  
-	    <div class="container">
-		  <div class="row">
-		   	<div class="col-lg order-lg-2 d-flex justify-content-center">
-			<figure><img class="img-fluid" style="" src="assets/img/committent.png" alt=""></figure>
-		</div>
-		  <div class="col-lg soft_card">
-			  <h1>COME MI AIUTERETE?</h1>
-			  <p>Ti aiuteremo ad attirare clienti come non hai mai fatto prima finora! Ti faremo sfruttare tutte le potenzialità della gamification organizzando manifestazioni a premio partendo da una prospettiva completamente nuova, e mentre tu ti concentrerai al 100% sui bisogni dei clienti e della tua azienda, non ci occuperemo di tutta la parte burocratica e fiscale al posto tuo.</p>
-			  <p style="text-align: center"><strong>FACILE NO?</strong></p>
-		  </div>
-			 
-		</div>
-	 </div>
-	  
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-    <script src="js/jquery-3.4.1.min.js"></script>
+    <nav class="navbar">
+        <div class="logo"><img src="./assets/img/Logo_blu.svg" alt=""></div>
+        <div class="burger"><img src="./assets/img/burger_menu.svg" alt="burger"></div>
+        <ul class="nav_link">
+            <li class="nav items">HOME</li>
+            <li class="nav items">SERVIZI</li>
+            <li class="nav items">TEAM</li>
+            <li class="nav items">CONTATTI</li>
+        </ul>
+    </nav>
 
-    <!-- Include all compiled plugins (below), or include individual files as needed --> 
-    <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap-4.4.1.js"></script>
-  </body>
+    <section class="home">
+        <h1 class="claim">Vuoi <strong>DAVVERO</strong> farti notare e aumentare le tue vendite promuovendo il tuo <strong>BRAND</strong>? Smetti di sognare e <strong>AGISCI ORA</strong>!</h1>
+        <div class="folla"><img src="./assets/img/folla.png" alt=""></div>
+        <p>Scopri il metodo vincente che renderà tutto questo non solo possibile ma anche estremamente accessibile! Fatti guidare da chi, da ben 20 anni ha deciso di fare della promozione il proprio core business e affronta un nuovo viaggio che ti farà scoprire come l’innovazione e la tecnologia faranno crescere il tuo business.</p>
+    </section>
+
+    <section class="sbaglio">
+        <div class="muro"><img src="./assets/img/omino sbaglio.png" alt="muro"></div>
+        <div class="testo">
+            <h1>MA DOVE SBAGLIO?</h1>
+            <p>Nella realtà odierna il vero problema per le attività, sia nel mondo “reale” che in quello digital è farsi notare in mezza a tutta la concorrenza. L’80% delle volte il problema non è la qualità del servizio o del prodotto che offri e neanche l’efficacia dei tuoi messaggi pubblicitari. Il più delle volte il problema è far si che il pubblico ti veda, che capisca che <em> TU sei la scelta giusta per loro</em>, che risolverai tutti i loro problemi e migliorerai la loro vita attraverso i tuoi prodotti o servizi.</p>
+        </div>
+    </section>
+
+    <section class="aiuto">
+        <div class="committent">
+            <img src="./assets/img/committent.png" alt="committent">
+        </div>
+        <div class="testo">
+            <h1>COME MI AIUTERETE?</h1>
+            <p>Ti aiuteremo ad attirare clienti come non hai mai fatto prima finora! Ti faremo sfruttare tutte le potenzialità della gamification organizzando manifestazioni a premio partendo da una prospettiva completamente nuova, e mentre tu ti concentrerai al 100% sui bisogni dei clienti e della tua azienda, non ci occuperemo di tutta la parte burocratica e fiscale al posto tuo.
+            <h1><strong>FACILE VERO?</strong></h1></p>
+        </div>
+    </section>
+
+    <section class="servizi">
+        <div class="servizi">
+            <img src="./assets/img/omino carte.png" alt="servizi">
+            <h1>CLICCA SUBITO PER SCOPIRE I NOSTRI SERVIZI</h1>
+            <a href="" class="servizi-btn"></a>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="contatti">
+            <h1>Contattaci subito per avere una consulenza</h1>
+            <div class="badge">
+                <img src="./assets/img/vale.png" alt="">
+            </div>
+            <div class="cell"><h1><strong>3403630838</strong></h1></div>
+            <div class="mail"><h1><strong>info@salesandpromotions.it</strong></h1></div>
+        </div>
+        <div><img src="./assets/img/CTA.png" alt="" style="width: 100%; margin-top: 1rem;"></div>
+        <div class="ebook">
+            <h1>Compila il form e scarica subito il nostro ebook <strong>GRATUITAMENTE</strong></h1>
+            <div class="form">
+                <label><p>Nome</p></label>
+                <input type="text" name="" placeholder="Nome">
+            </div>
+            <div class="form">
+                <label><p>Cognome</p></label>
+                <input type="text" name="" placeholder="Cognome">
+            </div>
+            <div class="form">
+                <label><p>Numero di telefono</p></label>
+                <input type="number" name="" placeholder="Numero di telefono">
+            </div>
+            <div class="form">
+                <label><p>E-mail</p></label>
+                <input type="email" name="" placeholder="E-mail">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="last_claim">
+            <h1>SEI PRONTO A FAR VINCERE IL TUO BUSINESS?</h1>
+            <p>Sappiamo benissimo che non ti lascerai sfuggire questa fantastica opportunità e ricorda che la nostra missione è quella di <strong>PROMUOVERE</strong> il tuo brand, solo così aumenterai le tue <strong>VENDITE</strong></p>
+        </div>
+        <div><img src="./assets/img/footer.png" alt="" style="width: 100%; margin-top: 1rem;"></div>
+    </section>
+
+    <div class="onda"></div>
+</body>
 </html>
